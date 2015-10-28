@@ -1,0 +1,420 @@
+body, html {
+  background: #fff;
+	height: 100%;
+  margin: 0px auto;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: 'Merriweather', serif;
+}
+
+/*******************************
+   NAVIGATION
+*******************************/
+
+nav {
+	text-align: center;
+	padding: em 0 0 0;
+	margin: 0;
+}
+
+nav a {
+	color: #7ec0ee;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c0362c;
+	text-decoration: underline;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 2em 0 2em;
+}
+
+li.selected a {
+	color: #fff;
+}
+
+/*******************************
+   HEADER
+*******************************/
+
+header {
+	background-color: #000;
+	border-bottom: 4px solid #c0362c;
+	height: 100px;
+	margin: 0 auto;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+.name {
+	padding: 0 0 0 5%;
+}
+
+span {
+  color: #c0362c;
+	display: block;
+	position: absolute;
+	top: -100px;
+}
+
+.char1 {
+	left: 5%;
+}
+
+.char2 {
+	left: 7.5%;
+}
+
+.char3 {
+	left: 8.5%;
+}
+
+.char4 {
+	left: 9.5%;
+}
+
+.char5 {
+	left: 10.5%;
+}
+
+.char6 {
+	left: 11.5%;
+}
+
+.char7 {
+	left: 13%;
+}
+
+.char9 {
+	left: 16%;
+}
+
+.char10 {
+	left: 18.5%;
+}
+
+.char11 {
+	left: 20%;
+}
+
+.char12 {
+	left: 21.5%;
+}
+
+.char13 {
+	left: 23%;
+}
+
+.char14 {
+	left: 24%;
+}
+
+.char15 {
+  left: 25%;
+}
+
+/*******************************
+   SKILLS
+*******************************/
+
+.bridge {
+	background: url('../img/DSC_0781.JPG') 
+		no-repeat;
+	background-size: 70% 510px;
+	height: 510px;
+	margin: auto;
+}
+
+.classify {
+	margin: 0;
+	text-align: center;
+}
+
+.skills {
+	left: -25%;
+	bottom: 60%;
+	position: absolute;
+	text-decoration: underline;
+}
+
+.php {
+	left: -25%;
+	bottom: 50%;
+	position: absolute;
+}
+
+.mysql {
+	left: -25%;
+	bottom: 45%;
+	position: absolute;
+}
+
+.javascript {
+	left: -25%;
+	bottom: 40%;
+	position: absolute;
+}
+
+.jquery {
+	left: -25%;
+	bottom: 35%;
+	position: absolute;
+}
+
+.ajax {
+	left: -25%;
+	bottom: 30%;
+	position: absolute;
+}
+
+.html {
+	left: -25%;
+	bottom: 25%;
+	position: absolute;
+}
+
+.css {
+	left: -25%;
+	bottom: 20%;
+	position: absolute;
+}
+
+.linux {
+	left: -25%;
+	bottom: 15%;
+	position: absolute;
+}
+
+.git {
+	left: -25%;
+	bottom: 10%;
+	position: absolute;
+}
+
+/*******************************
+   PROJECTS
+*******************************/
+
+.projects {
+	border-top: 4px solid #c0362c;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.title {
+	text-align: center;
+	text-decoration: underline;
+}
+
+.list {
+	height: 50px;
+	width: 50px;
+	display: inline;
+	padding-right: 20%
+}
+
+.ball {
+	height: 50px;
+	width: 50px;
+	display: inline;
+	padding-left: 20%;
+}
+
+.easylistmaker {
+	display: inline;
+	padding-right: 15%
+}
+
+.sportschat {
+	display: inline;
+	padding-left: 15%;
+}
+
+.football {
+	height: 30px;
+	width: 50px;
+	right: -25%;
+	position: absolute;
+}
+
+.wind {
+	height: 40px;
+	width: 60px;
+	right: -30%;
+	position: absolute;
+}
+
+.github {
+	margin-top: 20px;
+}
+
+.git-left {
+	display: inline;
+	height: 40px;
+	width: 40px;
+	padding-right: 20%;
+}
+
+.code-left {
+	display: inline;
+	padding-right: 18%;
+}
+
+.git-right {
+	display: inline;
+	height: 40px;
+	width: 40px;
+	padding-left: 20%;
+}
+
+.code-right {
+	display: inline;
+	padding-left: 18%;
+}
+/*******************************
+   EDUCATION
+*******************************/
+
+.education {
+	border-top: 4px solid #c0362c;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.dsu {
+	height: 50px;
+	width: 120px;
+}
+
+.treehouse {
+	height: 50px;
+	width: 50px;
+}
+
+.school {
+	width:200px;
+  margin:0 auto;
+  text-align:left;
+}
+
+.achievements {
+	color: #006400;
+}
+
+/*******************************
+   REFERENCES
+*******************************/
+
+.references {
+	border-top: 4px solid #c0362c;
+	padding-left: 10px;
+}
+
+/*******************************
+   FOOTER
+*******************************/
+
+footer {
+	text-align: center;
+	clear: both;
+	margin: 0 0 30px 0;
+}
+
+.social-icon {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	margin-top: 250px;
+}
+
+/*******************************
+   Media Queries
+*******************************/
+
+@media (max-width: 650px) {
+	
+	body {
+		font-size: .75em;
+	}
+
+	header {
+		height: 60px;
+  }
+
+  h1 {
+  	font-size: 1.25em;
+  }
+
+  h2 {
+  	font-size: 1em;
+  }
+
+  h3 {
+  	font-size: 0.9em;
+  }
+
+  p {
+  	font-size: 0.7em;
+  }
+	
+	nav a {
+		font-size: .75em;
+		margin: 0 0 0 0;
+	}
+
+	nav li {
+		padding: 0 5px 0 5px;
+	}
+
+	.list {
+		height: 30px;
+		width: 20px;
+		padding-right: 25%;
+	}
+
+	.ball {
+		height: 20px;
+		width: 20px;
+		padding-left: 25%;
+	}
+
+	.dsu {
+		height: 30px;
+		width: 70px;
+	}
+
+	.treehouse {
+		height: 30px;
+		width: 30px;
+	}
+
+	.git-left {
+		height: 20px;
+		width: 20px;
+	}
+
+	.git-right {
+		height: 20px;
+		width: 20px;
+	}
+
+	.social-icon {
+		height: 30px;
+		width: 30px;
+	}
+}
