@@ -210,82 +210,51 @@ span {
    PROJECTS
 *******************************/
 
-.projects {
-	border-top: 4px solid #c0362c;
-	text-align: center;
-	margin-bottom: 40px;
-}
-
 .title {
 	text-align: center;
 	text-decoration: underline;
 }
 
+.list-site {
+	float: left;
+	width: 50%;
+  margin :0 auto;
+  text-align: center;
+}
+
+.chat-site {
+	float: right;
+	width: 50%;
+  margin:  0 auto;
+  text-align: center;
+}
+
+.projects {
+	border-top: 4px solid #c0362c;
+	height: 300px;
+}
+
 .list {
 	height: 50px;
 	width: 50px;
-	display: inline;
-	padding-right: 20%
 }
 
 .ball {
 	height: 50px;
 	width: 50px;
-	display: inline;
-	padding-left: 20%;
 }
 
-.easylistmaker {
-	display: inline;
-	padding-right: 15%
-}
-
-.sportschat {
-	display: inline;
-	padding-left: 15%;
-}
-
-.football {
-	height: 30px;
-	width: 50px;
-	right: -25%;
-	position: absolute;
-}
-
-.wind {
-	height: 40px;
-	width: 60px;
-	right: -30%;
-	position: absolute;
-}
-
-.github {
-	margin-top: 20px;
-}
-
-.git-left {
-	display: inline;
+.git-list {
 	height: 40px;
 	width: 40px;
-	padding-right: 20%;
 }
 
-.code-left {
-	display: inline;
-	padding-right: 18%;
-}
-
-.git-right {
-	display: inline;
+.git-chat {
 	height: 40px;
 	width: 40px;
-	padding-left: 20%;
 }
 
-.code-right {
-	display: inline;
-	padding-left: 18%;
-}
+
 /*******************************
    EDUCATION
 *******************************/
@@ -307,9 +276,9 @@ span {
 }
 
 .school {
-	width:200px;
-  margin:0 auto;
-  text-align:left;
+	width: 200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .achievements {
@@ -381,16 +350,18 @@ footer {
 		padding: 0 5px 0 5px;
 	}
 
+	.projects {
+		height: 150px;
+	}
+
 	.list {
-		height: 30px;
+		height: 20px;
 		width: 20px;
-		padding-right: 25%;
 	}
 
 	.ball {
 		height: 20px;
 		width: 20px;
-		padding-left: 25%;
 	}
 
 	.dsu {
@@ -403,12 +374,12 @@ footer {
 		width: 30px;
 	}
 
-	.git-left {
+	.git-list {
 		height: 20px;
 		width: 20px;
 	}
 
-	.git-right {
+	.git-chat {
 		height: 20px;
 		width: 20px;
 	}
