@@ -40,11 +40,6 @@ $(function() {
     $('.git').delay(8800).animate({'left' : '80%'}, 500);
 	});
 
-	$('.throw').ready(function() {
-	  $('.football').delay(6000).animate({'right' : '105%'}, 3000);
-	  $('.wind').delay(6000).animate({'right' : '100%'}, 3000);
-	});
-
   // Slides The Bridge Back and Forth
   $(document).ready(function() {   
     function slideBridge() {

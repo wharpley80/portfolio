@@ -44,10 +44,6 @@ nav li {
 	padding: 0 2em 0 2em;
 }
 
-li.selected a {
-	color: #fff;
-}
-
 /*******************************
    HEADER
 *******************************/
@@ -292,6 +288,14 @@ span {
 .references {
 	border-top: 4px solid #c0362c;
 	padding-left: 10px;
+}
+
+/*******************************
+   CONTACT
+*******************************/
+
+.contact {
+	border-top: 4px solid #c0362c;
 }
 
 /*******************************
