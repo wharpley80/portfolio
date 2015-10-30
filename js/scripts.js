@@ -24,11 +24,9 @@ $(function() {
 	  $('.classify').hide();
 	  $('.classify').delay(5000).show( "pulsate", {left: '20px', times: 20, duration: 500} );
     $('.classify').animate({color: 'f3f315'}, 2000);
-  });
 
-  // Slides Skills onto screen.
-  $(document).ready(function() {
-	  $('.skills').delay(7000).animate({'left' : '82%'}, 500);
+    // Slides Skills into screen.
+    $('.skills').delay(7000).animate({'left' : '82%'}, 500);
     $('.php').delay(7200).animate({'left' : '80%'}, 500);
     $('.mysql').delay(7400).animate({'left' : '80%'}, 500);
     $('.javascript').delay(7600).animate({'left' : '80%'}, 500);
@@ -38,10 +36,8 @@ $(function() {
     $('.css').delay(8400).animate({'left' : '80%'}, 500);
     $('.linux').delay(8600).animate({'left' : '80%'}, 500);
     $('.git').delay(8800).animate({'left' : '80%'}, 500);
-	});
 
-  // Slides The Bridge Back and Forth
-  $(document).ready(function() {   
+    // Slides The Bridge Back and Forth  
     function slideBridge() {
       
       var x = -150;
