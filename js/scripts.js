@@ -5,13 +5,13 @@ $(function() {
     setTimeout(function () {
       var character = "char" + i;
   			
-  		$('.' + character).animate({'top' : '20px'}, 200);
-  		$('.' + character).animate({'top' : '-5px'}, 200 );
-  	  $('.' + character).animate({'top' : '20px'}, 200 );
-  	  $('.' + character).animate({'top' : '10px'}, 200 );
-  	  $('.' + character).animate({'top' : '20px'}, 200 );
-  	  $('.' + character).animate({'top' : '17px'}, 200 );
-  	  $('.' + character).animate({'top' : '20px'}, 200 );
+  		$('.' + character).animate({'top' : '20px'}, 200)
+        .animate({'top' : '-5px'}, 200 )
+  	     .animate({'top' : '20px'}, 200 )
+  	     .animate({'top' : '10px'}, 200 )
+  	     .animate({'top' : '20px'}, 200 )
+  	     .animate({'top' : '17px'}, 200 )
+  	     .animate({'top' : '20px'}, 200 );
   		  
   		if (i++) {          // If i > 0, keep going
         nameDrop(i);       // Call the loop again, and pass it the current value of i
@@ -20,7 +20,7 @@ $(function() {
   })(1);
 
   // Pulsates Web Developer, Then Changes its Color.
-	$(document).ready(function() {
+	
 	  $('.classify').hide();
 	  $('.classify').delay(5000).show( "pulsate", {left: '20px', times: 20, duration: 500} );
     $('.classify').animate({color: 'f3f315'}, 2000);
@@ -68,5 +68,5 @@ $(function() {
       }
     }  
     slideBridge();
-  });
+
 });

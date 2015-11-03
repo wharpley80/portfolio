@@ -1,30 +1,114 @@
 body, html {
-  background: #fff;
+  background: -webkit-linear-gradient(#1A3742, #9EA183) no-repeat; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1A3742, #9EA183) no-repeat; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1A3742, #9EA183) no-repeat; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1A3742, #9EA183) no-repeat; /* Standard syntax */  
 	height: 100%;
   margin: 0px auto;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-  font-family: 'Kaushan Script', cursive;
-	font-size: 2em;
+section {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  background-color: #E8E7EA;
 }
 
 h2 {
-	font-family: 'Merriweather', serif;
+  color: #E6E0CB;
+  display: block;
+  font-size: 3em;
+  font-family: 'Raleway';
+  font-weight: 300px;
+  margin: 0px;
+  padding: 0 0 .5em 0;
+  text-align: center;
+}
+
+h3 {
+	padding: 0;
+	margin: 5px;
+}
+
+/*******************************
+   HEADER
+*******************************/
+
+.intro {
+  height: 100%;
+	width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+}
+
+.name {
+	text-align: center;
+  color: #E6E0CB;
+  font-size: 80px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+.content  {
+  text-align: center;
+  color: #E6E0CB;
+  font-size: 1.1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+}
+
+.links {
+	display: block;
+}
+
+.social-icon {
+	height: 30px;
+	width: 30px;
+	padding: 0 .5em;
 }
 
 /*******************************
    NAVIGATION
 *******************************/
 
-nav {
-	text-align: center;
-	padding: em 0 0 0;
-	margin: 0;
+nav.main {
+  height: 100px;
+  /*position: absolute;*/
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  z-index: 999;
+  padding: 20px 0 0 0;
+  margin: 0px;
+  text-align: center;
 }
 
+nav.main ul {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  zoom: 1;
+  display: block;
+  border-top: 1px solid #E6E0CB;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+}
+
+
+
 nav a {
-	color: #7ec0ee;
+  color: rgb(255, 248, 225);
   text-decoration: none;
 }
 
@@ -42,174 +126,45 @@ nav ul {
 nav li {
 	display: inline-block;
 	padding: 0 2em 0 2em;
+	font-family: 'Open Sans', sans-serif;
+
 }
 
-/*******************************
-   HEADER
-*******************************/
-
-header {
-	background-color: #000;
-	border-bottom: 4px solid #c0362c;
-	height: 100px;
-	margin: 0 auto;
-	padding: 5px 0 0 0;
-	width: 100%;
-}
-
-.name {
-	padding: 0 0 0 5%;
-}
-
-span {
-  color: #c0362c;
-	display: block;
-	position: absolute;
-	top: -100px;
-}
-
-.char1 {
-	left: 5%;
-}
-
-.char2 {
-	left: 7.5%;
-}
-
-.char3 {
-	left: 8.5%;
-}
-
-.char4 {
-	left: 9.5%;
-}
-
-.char5 {
-	left: 10.5%;
-}
-
-.char6 {
-	left: 11.5%;
-}
-
-.char7 {
-	left: 13%;
-}
-
-.char9 {
-	left: 16%;
-}
-
-.char10 {
-	left: 18.5%;
-}
-
-.char11 {
-	left: 20%;
-}
-
-.char12 {
-	left: 21.5%;
-}
-
-.char13 {
-	left: 23%;
-}
-
-.char14 {
-	left: 24%;
-}
-
-.char15 {
-  left: 25%;
-}
 
 /*******************************
    SKILLS
 *******************************/
 
-.bridge {
-	background: url('../img/DSC_0781.JPG') 
-		no-repeat;
-	background-size: 70% 510px;
-	height: 510px;
-	margin: auto;
-}
-
-.classify {
-	margin: 0;
-	text-align: center;
-}
-
 .skills {
-	left: -25%;
-	bottom: 60%;
-	position: absolute;
-	text-decoration: underline;
+  height: 500px;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  background: 
+    linear-gradient(
+      rgba(25, 57, 68, 0.95), 
+      rgba(25, 57, 68, 0.95)
+    ),
+    url('../img/DSC_0781.JPG') no-repeat;
+  background-size: 100% 600px;
 }
 
-.php {
-	left: -25%;
-	bottom: 50%;
-	position: absolute;
+.skills-list {
+	color: #E6E0CB;
+  font-size: 1.1em;
+	text-align: left;
+	width: 250px;
+	margin-left: auto;
+  margin-right: auto;
 }
 
-.mysql {
-	left: -25%;
-	bottom: 45%;
-	position: absolute;
-}
-
-.javascript {
-	left: -25%;
-	bottom: 40%;
-	position: absolute;
-}
-
-.jquery {
-	left: -25%;
-	bottom: 35%;
-	position: absolute;
-}
-
-.ajax {
-	left: -25%;
-	bottom: 30%;
-	position: absolute;
-}
-
-.html {
-	left: -25%;
-	bottom: 25%;
-	position: absolute;
-}
-
-.css {
-	left: -25%;
-	bottom: 20%;
-	position: absolute;
-}
-
-.linux {
-	left: -25%;
-	bottom: 15%;
-	position: absolute;
-}
-
-.git {
-	left: -25%;
-	bottom: 10%;
-	position: absolute;
+ul {
+  list-style-type: none;
+  margin: 0;
 }
 
 /*******************************
    PROJECTS
 *******************************/
-
-.title {
-	text-align: center;
-	text-decoration: underline;
-}
 
 .list-site {
 	float: left;
@@ -223,11 +178,6 @@ span {
 	width: 50%;
   margin:  0 auto;
   text-align: center;
-}
-
-.projects {
-	border-top: 4px solid #c0362c;
-	height: 300px;
 }
 
 .list {
@@ -256,7 +206,6 @@ span {
 *******************************/
 
 .education {
-	border-top: 4px solid #c0362c;
 	margin-bottom: 40px;
 	text-align: center;
 }
@@ -286,7 +235,6 @@ span {
 *******************************/
 
 .references {
-	border-top: 4px solid #c0362c;
 	padding-left: 10px;
 }
 
@@ -295,7 +243,7 @@ span {
 *******************************/
 
 .contact {
-	border-top: 4px solid #c0362c;
+	text-align: center;
 }
 
 /*******************************
@@ -308,12 +256,7 @@ footer {
 	margin: 0 0 30px 0;
 }
 
-.social-icon {
-	height: 50px;
-	width: 50px;
-	position: relative;
-	margin-top: 250px;
-}
+
 
 /*******************************
    Media Queries
@@ -334,11 +277,11 @@ footer {
   }
 
   h2 {
-  	font-size: 1em;
+  	font-size: 1.5em;
   }
 
   h3 {
-  	font-size: 0.9em;
+  	font-size: 0.75em;
   }
 
   p {
@@ -352,6 +295,19 @@ footer {
 
 	nav li {
 		padding: 0 5px 0 5px;
+	}
+
+	.intro {
+		width: 300px;
+	}
+
+	.name {
+		font-size: 50px;
+	}
+
+	.profile-pic {
+		height: 80px;
+		width: 80px;
 	}
 
 	.projects {

@@ -1,71 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <a name="home"></a>
 	<title>William Harpley</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href='https://fonts.googleapiscom/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Signika|Merriweather' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
-	<header>
-		<nav class='page-links'>
+	<div class="intro">
+    <h1 class="name">William</h1>
+    <h1 class="name">Harpley</h1>
+    <p class="content">Hello! My name is William Harpley, and I'm an Orlando-based developer. I'm available for local as well  as remote work.
+      <br>
+      <br>
+      I have a diverse set of skills, ranging from design, to HTML + CSS + JavaScript, all the way to PHP + MySQL.
+    </p>
+    <img src="img/20151102_100846.jpg" class="profile-pic">
+    <div class="links">
+      <a href="https://www.linkedin.com/in/williamharpley"><img src="img/099107-glossy-black-3d-button-icon-social-media-logos-linkedin-logo-square2.png" alt="LinkedIn Logo" class="social-icon">
+      </a>
+      <a href="http://blog.williamharpley.com"><img src="img/099160-glossy-black-3d-button-icon-social-media-logos-wordpress.png"   class='social-icon'>
+      </a>
+      <a href="mailto:wharpley@gmail.com"><img src='img/099097-glossy-black-3d-button-icon-social-media-logos-gmail-logo-square2.png' alt='Gmail Logo' class='social-icon' id='mail'>
+      </a>
+    </div>
+		<nav class='main'>
 			<ul>
 				<li>
-					<a href="#skills">Skills</a>
+					<a href="#home">Home</a>
 				</li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
 				<li>
 					<a href="#projects">Projects</a>
 				</li>
-				<li>
-					<a href="#education">Education</a>
-				</li>
-				<li>
-					<a href="#references">References</a>
-				</li>
+
 				<li>
 					<a href="#contact">Contact</a>
 				</li>
 		  </ul>
 		</nav>	
-    <h1 class='name'>
-    	<span class='char1'>W</span>
-    	<span class='char2'>i</span>
-    	<span class='char3'>l</span>
-    	<span class='char4'>l</span>
-    	<span class='char5'>i</span>
-    	<span class='char6'>a</span>
-    	<span class='char7'>m</span>
-    	<span class='char8'> </span>
-    	<span class='char9'>H</span>
-    	<span class='char10'>a</span>
-    	<span class='char11'>r</span>
-    	<span class='char12'>p</span>
-    	<span class='char13'>l</span>
-    	<span class='char14'>e</span>
-    	<span class='char15'>y</span>
-    </h1>
-	</header>
-	<div class='bridge'>
-		<h1 class='classify'>Web Developer</h1>
-		  <a name="skills"></a>
-		<h2 class='skills'>Skills</h2>
-		<h3 class='php'>PHP (LAMP)</h3>
-		<h3 class='mysql'>MySQL</h3>
-		<h3 class='javascript'>JavaScript</h3>
-		<h3 class='jquery'>jQuery</h3>
-		<h3 class='ajax'>AJAX</h3>
-		<h3 class='html'>HTML</h3>
-		<h3 class='css'>CSS</h3>
-		<h3 class='linux'>Linux</h3>
-		<h3 class='git'>Git</h3>
-  </div>
-  <div class='projects'>
-  	<a name="projects"></a>
-  	<h2 class='title'>Projects</h2>
+	</div>
+  <section class='skills'>
+    <a name="skills"></a>
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <ul>
+        <li>
+          <h3>PHP</h3>
+        </li>
+        <li>
+          <h3>MySQL</h3>
+        </li>
+        <li>
+          <h3>JavaScript</h3>
+        </li>
+        <li>
+          <h3>jQuery</h3>
+        </li>
+        <li>
+          <h3>AJAX</h3>
+        </li>
+        <li>
+          <h3>HTML</h3>
+        </li>
+        <li>
+          <h3>CSS</h3>
+        </li>
+        <li>
+          <h3>Linux</h3>
+        </li>
+        <li>
+          <h3>Git</h3>
+        </li>
+        <li>
+          <h3>Responsive Web Design</h3>
+        </li>
+      </ul>
+    </div>
+    <nav class='main'>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>  
+  </section>
+
+
+    <a name="projects"></a>
+    <h2>Projects</h2>
+    <div class="intro">
+      <p class="content">These are some of the current projects that I'm working on.
+      </p>
+    </div>
   	<div class='list-site'>
-	  		<a href="http://www.easylistmaker.com"><img src='img/1441743044_kwrite.png' class='list'>
-	  		</a>
+  		<a href="http://www.easylistmaker.com"><img src='img/1441743044_kwrite.png' class='list'>
+  		</a>
   		<h3 class='easylistmaker'>EasyListMaker.com</h3>
 	  		<a href="https://github.com/wharpley80/shopping-list"><img src='img/25231.png' class='git-list'>
 	  		</a>
@@ -77,10 +120,11 @@
   		<a href="https://github.com/wharpley80/chat"><img src='img/25231.png' class='git-chat'></a>
   		<h3>Source Code</h3>
   	</div>
-  </div>
+
+
   <div class='education'>
   	<a name="education"></a>
-  	<h2 class='title'>Education</h2>
+  	<h2>Education</h2>
   	<div class='school'>
 	  	<img src='img/logo.png' class='dsu'>
     	<h3>Daytona State College</h3>
@@ -104,6 +148,7 @@
     	</ul>
     </div>
   </div>
+  <!--
   <div class='references'>
   	<a name="references"></a>
   	<h2 class='title'>References</h2>
@@ -123,21 +168,18 @@
   		</li>
   	</ul>
   </div>
+-->
   <div class='contact'>
   	<a name="contact"></a>
-  	<h2 class='title'>Contact</h2>
+  	<h2>Contact</h2>
   </div>
 	<footer>
-		<a href="https://www.linkedin.com/in/williamharpley"><img src='img/099107-glossy-black-3d-button-icon-social-media-logos-linkedin	-logo-square2.png' alt='LinkedIn Logo' class='social-icon'>
-		</a>
-		<a href="http://williamharpley.wordpress.com"><img src="img/099160-glossy-black-3d-button-icon-social-media-logos-wordpress.png" 	class='social-icon'>
-		</a>
-		<a href="mailto:wharpley@gmail.com"><img src='img/099097-glossy-black-3d-button-icon-social-media-logos-gmail-logo-square2.png' alt='Gmail Logo' class='social-icon' id='mail'>
-		</a>
 		<p>&copy; 2015 William Harpley. (307)-554-0390</p>
+    <!--
 		<script src='//code.jquery.com/jquery-1.11.3.min.js'></script>
 		<script src='//code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
 		<script src='js/scripts.js' type='text/javascript' charset='utf-8'></script>
+  --> 
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
