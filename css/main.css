@@ -19,22 +19,21 @@ section {
 
 h2 {
   color: #E6E0CB;
-  display: block;
   font-size: 3em;
   font-family: 'Raleway';
   font-weight: 300px;
   margin: 0px;
-  padding: 0 0 .5em 0;
-  text-align: center;
+  padding: 1em 0 .5em 0;
 }
 
 h3 {
+	font-size: 1.1em;
 	padding: 0;
 	margin: 5px;
 }
 
 /*******************************
-   HEADER
+   HOME
 *******************************/
 
 .intro {
@@ -113,7 +112,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #c0362c;
+  color: #1C3D4B;
 	text-decoration: underline;
 }
 
@@ -137,8 +136,7 @@ nav li {
 
 .skills {
   height: 500px;
-  padding-top: 3em;
-  padding-bottom: 1em;
+  padding: 3em 0 1em 0;
   background: 
     linear-gradient(
       rgba(25, 57, 68, 0.95), 
@@ -146,12 +144,12 @@ nav li {
     ),
     url('../img/DSC_0781.JPG') no-repeat;
   background-size: 100% 600px;
+  text-align: center;
 }
 
 .skills-list {
 	color: #E6E0CB;
-  font-size: 1.1em;
-	text-align: left;
+  text-align: left;
 	width: 250px;
 	margin-left: auto;
   margin-right: auto;
@@ -166,10 +164,28 @@ ul {
    PROJECTS
 *******************************/
 
+.projects {
+	background-color: #fff;
+	text-align: center;
+	height: 200px;
+}
+
+.projects-head {
+	color: #1C3D4B;
+}
+
+.projects-content  {
+  text-align: center;
+  color: #1C3D4B;
+  font-size: 1.1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
 .list-site {
 	float: left;
 	width: 50%;
-  margin :0 auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -188,6 +204,16 @@ ul {
 .ball {
 	height: 50px;
 	width: 50px;
+}
+
+.projects-link {
+	color: #979C80;
+	display: block;
+	padding: 10px 0;
+}
+
+a:hover {
+	color: #1C3D4B;
 }
 
 .git-list {
@@ -231,14 +257,6 @@ ul {
 }
 
 /*******************************
-   REFERENCES
-*******************************/
-
-.references {
-	padding-left: 10px;
-}
-
-/*******************************
    CONTACT
 *******************************/
 
@@ -251,12 +269,23 @@ ul {
 *******************************/
 
 footer {
+	background-color: #1C3D4B;
+	color: #E6E0CB;
 	text-align: center;
 	clear: both;
-	margin: 0 0 30px 0;
+	margin: 0;
 }
 
+.rrhof {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	margin-top: 50px;
+}
 
+.number {
+	padding: 20px 0;
+}
 
 /*******************************
    Media Queries
@@ -298,6 +327,10 @@ footer {
 	}
 
 	.intro {
+		width: 300px;
+	}
+
+	.skills-page: {
 		width: 300px;
 	}
 
