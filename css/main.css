@@ -1,4 +1,8 @@
-body, html {
+html {
+	height: 100%;
+}
+
+body {
   background: -webkit-linear-gradient(#1A3742, #9EA183) no-repeat; /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(#1A3742, #9EA183) no-repeat; /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#1A3742, #9EA183) no-repeat; /* For Firefox 3.6 to 15 */
@@ -8,28 +12,27 @@ body, html {
   font-family: 'Open Sans', sans-serif;
 }
 
-section {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  text-align: center;
-  position: relative;
-  background-color: #E8E7EA;
-}
-
 h2 {
   color: #E6E0CB;
   font-size: 3em;
   font-family: 'Raleway';
   font-weight: 300px;
   margin: 0px;
-  padding: 1em 0 .5em 0;
+  padding: .5em 0 .5em 0;
 }
 
 h3 {
-	font-size: 1.1em;
+	font-size: 1.5em;
 	padding: 0;
 	margin: 5px;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+li {
+	text-align: left;
 }
 
 /*******************************
@@ -47,24 +50,26 @@ h3 {
 .name {
 	text-align: center;
   color: #E6E0CB;
-  font-size: 80px;
+  font-size: 70px;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   margin: 0;
+  padding-top: 0.3em;
 }
 
 .content  {
   text-align: center;
   color: #E6E0CB;
   font-size: 1.1em;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
 }
 
 .profile-pic {
 	border-radius: 50%;
-	height: 120px;
-	width: 120px;
+	height: 140px;
+	width: 140px;
+	padding: .5em 0;
 }
 
 .links {
@@ -73,7 +78,7 @@ h3 {
 
 .social-icon {
 	height: 30px;
-	width: 30px;
+	width: 50px;
 	padding: 0 .5em;
 }
 
@@ -88,8 +93,8 @@ nav.main {
   bottom: 0px;
   left: 0px;
   z-index: 999;
-  padding: 20px 0 0 0;
-  margin: 0px;
+  padding-top: 20px;
+  margin: 0;
   text-align: center;
 }
 
@@ -101,10 +106,8 @@ nav.main ul {
   display: block;
   border-top: 1px solid #E6E0CB;
   text-align: center;
-  padding: 0px 0px 0px 0px;
+  padding: 0;
 }
-
-
 
 nav a {
   color: rgb(255, 248, 225);
@@ -135,15 +138,15 @@ nav li {
 *******************************/
 
 .skills {
-  height: 500px;
-  padding: 3em 0 1em 0;
+  height: 100%;
+  padding-top: 3em;
   background: 
     linear-gradient(
       rgba(25, 57, 68, 0.95), 
       rgba(25, 57, 68, 0.95)
     ),
     url('../img/DSC_0781.JPG') no-repeat;
-  background-size: 100% 600px;
+  background-size: 100% 100%;
   text-align: center;
 }
 
@@ -167,10 +170,10 @@ ul {
 .projects {
 	background-color: #fff;
 	text-align: center;
-	height: 200px;
+	height: 100%;
 }
 
-.projects-head {
+.projects h2 {
 	color: #1C3D4B;
 }
 
@@ -182,28 +185,25 @@ ul {
   padding-top: 0.5em;
 }
 
-.list-site {
-	float: left;
-	width: 50%;
-  margin: 0 auto;
-  text-align: center;
+.projects h3 {
+	color: #1C3D4B;
 }
 
-.chat-site {
-	float: right;
-	width: 50%;
-  margin:  0 auto;
-  text-align: center;
+.projects p {
+	color: #1C3D4B;
+	text-align: left;
 }
 
-.list {
-	height: 50px;
-	width: 50px;
+.projects a {
+	color: #1C3D4B;
 }
 
-.ball {
-	height: 50px;
-	width: 50px;
+.projects a:hover {
+	color: #FF2400;
+}
+
+.projects .row {
+	padding: 30px 0 ;
 }
 
 .projects-link {
@@ -226,61 +226,32 @@ a:hover {
 	width: 40px;
 }
 
-
-/*******************************
-   EDUCATION
-*******************************/
-
-.education {
-	margin-bottom: 40px;
-	text-align: center;
-}
-
-.dsu {
-	height: 50px;
-	width: 120px;
-}
-
-.treehouse {
-	height: 50px;
-	width: 50px;
-}
-
-.school {
-	width: 200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.achievements {
-	color: #006400;
-}
-
 /*******************************
    CONTACT
 *******************************/
 
 .contact {
-	text-align: center;
-}
-
-/*******************************
-   FOOTER
-*******************************/
-
-footer {
-	background-color: #1C3D4B;
 	color: #E6E0CB;
 	text-align: center;
+	font-size: 1.1em;
 	clear: both;
-	margin: 0;
+	height: 100%;
+
+
+  background: 
+    linear-gradient(
+      rgba(25, 57, 68, 0.98), 
+      rgba(25, 57, 68, 0.98)
+    ),
+    url('../img/40317763-Vector-constellations-background-Stock-Vector.jpg') no-repeat;
+   background-size: 100% 100%;
 }
 
 .rrhof {
 	height: 150px;
 	width: 150px;
 	border-radius: 50%;
-	margin-top: 50px;
+	margin: 50px 0;
 }
 
 .number {
@@ -306,15 +277,19 @@ footer {
   }
 
   h2 {
-  	font-size: 1.5em;
+  	font-size: 2em;
   }
 
   h3 {
-  	font-size: 0.75em;
+  	font-size: 1em;
   }
 
   p {
   	font-size: 0.7em;
+  }
+
+  li {
+  	text-align: center;
   }
 	
 	nav a {
@@ -355,21 +330,6 @@ footer {
 	.list {
 		height: 20px;
 		width: 20px;
-	}
-
-	.ball {
-		height: 20px;
-		width: 20px;
-	}
-
-	.dsu {
-		height: 30px;
-		width: 70px;
-	}
-
-	.treehouse {
-		height: 30px;
-		width: 30px;
 	}
 
 	.git-list {
