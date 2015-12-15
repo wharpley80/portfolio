@@ -129,9 +129,7 @@ nav li {
 	display: inline-block;
 	padding: 0 2em 0 2em;
 	font-family: 'Open Sans', sans-serif;
-
 }
-
 
 /*******************************
    SKILLS
@@ -139,7 +137,7 @@ nav li {
 
 .skills {
   height: 100%;
-  padding-top: 3em;
+  padding-top: 2.5em;
   background: 
     linear-gradient(
       rgba(25, 57, 68, 0.95), 
@@ -170,7 +168,7 @@ ul {
 .projects {
 	background-color: #fff;
 	text-align: center;
-	height: 100%;
+  margin: 20px 0 50px 0;
 }
 
 .projects h2 {
