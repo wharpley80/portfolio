@@ -88,7 +88,6 @@ li {
 
 nav.main {
   height: 100px;
-  /*position: absolute;*/
   width: 100%;
   bottom: 0px;
   left: 0px;
@@ -254,6 +253,10 @@ a:hover {
 
 .number {
 	padding: 20px 0;
+}
+
+.git-link:hover {
+	color: #000;
 }
 
 /*******************************
