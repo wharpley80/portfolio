@@ -39,12 +39,23 @@ li {
    HOME
 *******************************/
 
+#particles {
+  width: 100%;
+  height: 100%;
+  }
+
 .intro {
   height: 100%;
 	width: 500px;
   margin-left: auto;
   margin-right: auto;
 	text-align: center;
+	bottom: 0;
+  left: 0;
+  position: absolute;
+  right:0;
+  top:0;
+  z-index: 1;
 }
 
 .name {
@@ -139,8 +150,8 @@ nav li {
   padding-top: 2.5em;
   background: 
     linear-gradient(
-      rgba(25, 57, 68, 0.95), 
-      rgba(25, 57, 68, 0.95)
+      rgba(25, 57, 68, 0.90), 
+      rgba(25, 57, 68, 0.90)
     ),
     url('../img/DSC_0781.JPG') no-repeat;
   background-size: 100% 100%;
@@ -223,6 +234,18 @@ a:hover {
 	width: 40px;
 }
 
+.thumbnail {
+	height: 300px;
+}
+
+@media (max-width: 650px) {
+
+	.thumbnail {
+		height: 150px;
+	}
+
+}
+
 /*******************************
    CONTACT
 *******************************/
@@ -232,16 +255,15 @@ a:hover {
 	text-align: center;
 	font-size: 1.1em;
 	clear: both;
-	height: 100%;
-
-
   background: 
     linear-gradient(
-      rgba(25, 57, 68, 0.98), 
-      rgba(25, 57, 68, 0.98)
+      rgba(25, 57, 68, 0.90), 
+      rgba(25, 57, 68, 0.90)
     ),
-    url('../img/40317763-Vector-constellations-background-Stock-Vector.jpg') no-repeat;
+    url('../img/petit_bridge.jpg') no-repeat;;
    background-size: 100% 100%;
+   height: 100%;
+   margin-bottom: -30px;
 }
 
 .rrhof {
@@ -322,6 +344,7 @@ a:hover {
 	.rrhof {
 		height: 80px;
 		width: 80px;
+		margin-top: 20px;
 	}
 
 	.projects {
@@ -344,7 +367,16 @@ a:hover {
 	}
 
 	.social-icon {
-		height: 30px;
+		height: 20px;
 		width: 30px;
 	}
+
+	.contact {
+		height: 450px;
+		}
+
+	.number {
+		padding: 0;
+	}
+
 }
