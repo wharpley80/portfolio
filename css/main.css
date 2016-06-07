@@ -285,6 +285,12 @@ a:hover {
    Media Queries
 *******************************/
 
+@media (min-width: 1500px) {
+	.intro {
+		height: 800px;
+	}
+}
+
 @media (max-width: 650px) {
 	
 	body {
