@@ -238,6 +238,30 @@ a:hover {
 	height: 300px;
 }
 
+#power-hide {
+	display: none;
+}
+
+#easy-hide {
+	display: none;
+}
+
+#sports-hide {
+	display: none;
+}
+
+#father-hide {
+	display: none;
+}
+
+#pool-hide {
+	display: none;
+}
+
+#snap-hide {
+	display: none;
+}
+
 @media (max-width: 650px) {
 
 	.thumbnail {

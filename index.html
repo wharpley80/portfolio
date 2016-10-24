@@ -20,10 +20,10 @@
     <div class="intro">
       <h1 class="name">William<br>Harpley</h1>
       <p class="content">
-        Hello! My name is William Harpley, and I'm an Orlando-based Developer. I'm available for local as well  as remote work.
+        Hello! My name is William Harpley, and I'm an Orlando-based Developer. I'm available for local as well as remote work.
       </p>
       <p class="content">
-        I have a diverse set of skills, ranging from PHP + MVC frameworks, to JavaScript + Design, all the way to WordPress development and Woocommerce.
+        I have a diverse set of skills, ranging from PHP + MVC frameworks, to JavaScript, React JS + Design, all the way to WordPress development and Woocommerce.
       </p>    
       <img src="img/DSC_0140.JPG" class="profile-pic">
       <div class="links">
@@ -73,13 +73,18 @@
             </li>
             <li>
               <h3>JavaScript</h3>
-            </li>
-            <li>
-              <h3>jQuery</h3>
-            </li>
-            <li>
-              <h3>AJAX</h3>
-            </li>
+              <ul>
+                <li>
+                  <h3>React JS</h3>
+                </li>
+                <li>
+                  <h3>jQuery</h3>
+                </li>
+                <li>
+                  <h3>AJAX</h3>
+                </li>
+              </ul>
+            </li>      
             <li>
               <h3>SEO</h3>
             </li>
@@ -143,20 +148,21 @@
             Although I'm a web developer, I also own and operate a profitable ecommerce website. I developed my site using Wordpress. I created my own custom theme and also customized many plugins along the way. I used Woocommerce and customized it to my heart's desire. I designed my site using Foundation 6, and I also used Pixelmator to edit all my product photos. 
           </p>
           <a href="https://github.com/wharpley80/PowerUp-RetroGames">
-            <img src="img/25231.png" class="git-chat">
+            <img src="img/25231.png" class="git-chat" id="power-show">
           </a>
           <a href="https://github.com/wharpley80/PowerUp-RetroGames" class="projects-link">Source Code</a>
         </div>
         <div class="small-6 columns">
           <a href="http://PowerUpRetroGames.com">
-            <img class="thumbnail" src="img/PowerUp_screenshot.png">
+            <img id="power-hide" class="thumbnail" src="img/PowerUp_screenshot.png">
           </a>
+
         </div>
       </div>
       <div class="row">
         <div class="small-6 columns">
           <a href="http://easylistmaker.com">
-            <img class="thumbnail" src="img/easylist_screenshot.png">
+            <img id="easy-hide" class="thumbnail" src="img/easylist_screenshot.png">
           </a>
         </div>
         <div class="small-6 columns">
@@ -167,7 +173,7 @@
             This is a list making application that I built using Laravel, which is a MVC framework. I designed the front-end using a Bootstrap framework. The site uses user authentication and allows the user to create lists and list items. There is complete CRUD capabilities to all levels of the app as well as the use of polymorphic relations allowing the user to share their lists with other users if they choose. I also implemented custom route protection using Middleware. Check it out and see how well it works!
           </p>
           <a href="https://github.com/wharpley80/easy-list">
-            <img src="img/25231.png" class="git-list">
+            <img src="img/25231.png" class="git-list" id="easy-show">
           </a>
           <a href="https://github.com/wharpley80/easy-list" class="projects-link">Source Code</a>
         </div>
@@ -181,20 +187,20 @@
             This is a sports blog that I built using my WordPress development skills. I developed a custom theme for this site using Bootstrap. I used the template hierarchy to structure all the files. I used custom hooks in the functions.php file to trigger all my actions and filters. The code for most of the theme is based on The Loop, and uses all WordPress functions. SEO was used when designing the site as well to help bring more eyes to my content, and I try to find time to update the content as well.
           </p>
           <a href="https://github.com/wharpley80/my-sports-home">
-            <img src="img/25231.png" class="git-chat">
+            <img src="img/25231.png" class="git-chat" id="sports-show">
           </a>
           <a href="https://github.com/wharpley80/my-sports-home" class="projects-link">Source Code</a>
         </div>
         <div class="small-6 columns">
           <a href="http://mysportshome.com">
-            <img class="thumbnail" src="img/mysports_screenshot.png">
+            <img class="thumbnail" src="img/mysports_screenshot.png" id="sports-hide">
           </a>
         </div>
       </div>
       <div class="row">
         <div class="small-6 columns">
           <a href="http://Fathers-Journey.com">
-            <img class="thumbnail" src="img/journey_screenshot.png">
+            <img class="thumbnail" src="img/journey_screenshot.png" id="father-hide">
           </a>
         </div>
         <div class="small-6 columns">
@@ -205,7 +211,7 @@
             This is a site I built using my WordPress development skills. I developed a custom theme for this site using the Foundation framework. I also developed a custom plugin using a 3rd party API, that retrieves information from my Treehouse profile in JSON format. I then desplay all my badges with customized tooltips that I designed, and use jQuery to give the option to show or hide them. I used Orbit to give a swipe function on moblie devices for photos I have on display. This site is also a fully functional blog that utilizes WordPress's template hierarchy to structure all the files.
           </p>
           <a href="https://github.com/wharpley80/fathers-journey">
-            <img src="img/25231.png" class="git-list">
+            <img src="img/25231.png" class="git-list" id="father-show">
           </a>
           <a href="https://github.com/wharpley80/fathers-journey" class="projects-link">Source Code</a>
         </div>
@@ -219,20 +225,20 @@
             This is a freelance project that I designed for a local pool company. I used Bootstrap for the front-end framework. There is also some PHP written for the site, but this was for the most part just a front-end project. The design is complete and the site is fully responsive.
           </p>
           <a href="https://github.com/wharpley80/cs-pools">
-            <img src="img/25231.png" class="git-chat">
+            <img src="img/25231.png" class="git-chat" id="pool-show">
           </a>
           <a href="https://github.com/wharpley80/cs-pools" class="projects-link">Source Code</a>
         </div>
         <div class="small-6 columns">
           <a href="http://cspooldesigns.com">
-            <img class="thumbnail" src="img/cspool_screenshot.png">
+            <img class="thumbnail" src="img/cspool_screenshot.png" id="pool-hide">
           </a>
         </div>
       </div>
       <div class="row">
         <div class="small-6 columns">
           <a href="http://collect-snap.com">
-            <img class="thumbnail" src="img/collect_screenshot.png">
+            <img class="thumbnail" src="img/collect_screenshot.png" id="snap-hide">
           </a>
         </div>
         <div class="small-6 columns">
@@ -243,7 +249,7 @@
             This is a PHP/MySQL based site using a Bootstrap framework. Users will create an account where they can upload photos of their collections or hobbies and share with the public. I utilized JavaScript, jQuery, and I also make several AJAX calls to make the site work efficiently. Check out the code at the source code link.
           </p>
           <a href="https://github.com/wharpley80/my-hobby">
-            <img src="img/25231.png" class="git-list">
+            <img src="img/25231.png" class="git-list" id="snap-show">
           </a>
           <a href="https://github.com/wharpley80/my-hobby" class="projects-link">Source Code</a>
         </div>
@@ -277,5 +283,6 @@
     <script src="js/app.js"></script>
     <script src="js/jquery.particleground.js"></script>
     <script src="js/demo.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
