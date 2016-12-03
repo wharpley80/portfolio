@@ -258,6 +258,10 @@ a:hover {
 	display: none;
 }
 
+#react-hide {
+	display: none;
+}
+
 #snap-hide {
 	display: none;
 }
