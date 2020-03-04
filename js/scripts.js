@@ -1,5 +1,13 @@
 $(window).scroll(function() {
 
+    var hT = $('#collector-show').offset().top,
+    hH = $('#collector-show').outerHeight(),
+    wH = $(window).height(),
+    wS = $(this).scrollTop();
+	if (wS > (hT+hH-wH)){
+        $('#collector-hide').fadeIn(500);
+    }
+
     var hT = $('#father-show').offset().top,
     hH = $('#father-show').outerHeight(),
     wH = $(window).height(),
@@ -23,22 +31,4 @@ $(window).scroll(function() {
     if (wS > (hT+hH-wH)){
         $('#react-hide').fadeIn(500);
     }
-
-/*
-    var hT = $('#power-show').offset().top,
-    hH = $('#power-show').outerHeight(),
-    wH = $(window).height(),
-    wS = $(this).scrollTop();
-	if (wS > (hT+hH-wH)){
-		$('#power-hide').fadeIn(500);
-    }
-
-    var hT = $('#easy-show').offset().top,
-    hH = $('#easy-show').outerHeight(),
-    wH = $(window).height(),
-    wS = $(this).scrollTop();
-	if (wS > (hT+hH-wH)){
-	   	$('#easy-hide').fadeIn(500);
-    }
-*/
 });
